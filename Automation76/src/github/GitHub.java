@@ -7,6 +7,7 @@ public class GitHub {
 	
 	@Test
 	public void addMessage() {
-	Reporter.log("Welcome to GitHub",true);
+	Reporter.log("Welcome to GitHub again",true);
+	Reporter.log("Welcome to GitHub 2nd time",true);
 }
 }
