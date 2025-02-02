@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgAssignment.GiftTNg">
+      <class name="TestNG.DependsOnMethod">
         <methods>
-          <include name="closebrowser"/>
-          <include name="launchbrowser"/>
-          <include name="clickgift"/>
+          <include name="addTOCart"/>
+          <include name="login"/>
+          <include name="register"/>
         </methods>
-      </class> <!-- TestNgAssignment.GiftTNg -->
+      </class> <!-- TestNG.DependsOnMethod -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -8,45 +8,83 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">33,652</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Test2</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">52,722</td><td></td><td></td></tr>
-<tr><td><a href="#t2">Test3</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">25,900</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">6</th><th class="num">0</th><th class="num">0</th><th class="num attn">6</th><th class="num">112,274</th><th colspan="2"></th></tr>
+<tr><th colspan="8">Default suite</th></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">2,136</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNgAssignment.ComputersTNg</td><td><a href="#m0">clickcomputer</a></td><td rowspan="1">1730184165136</td><td rowspan="1">1879</td></tr><tr class="failedodd"><td rowspan="1">TestNgAssignment.GiftTNg</td><td><a href="#m1">clickgift</a></td><td rowspan="1">1730184156852</td><td rowspan="1">2317</td></tr><tr><th colspan="4">Test1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestNgAssignment.BooksTNg</td><td><a href="#m2">clickbooks</a></td><td rowspan="1">1730184172397</td><td rowspan="1">2382</td></tr><tr class="passedodd"><td rowspan="1">TestNgAssignment.ElectronicsTNg</td><td><a href="#m3">clickelectronic</a></td><td rowspan="1">1730184180922</td><td rowspan="1">1824</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Test2 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNgAssignment.ComputersTNg</td><td><a href="#m4">clickcomputer</a></td><td rowspan="1">1730184202857</td><td rowspan="1">2034</td></tr><tr class="failedodd"><td rowspan="1">TestNgAssignment.GiftTNg</td><td><a href="#m5">clickgift</a></td><td rowspan="1">1730184191409</td><td rowspan="1">2087</td></tr><tr><th colspan="4">Test2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestNgAssignment.BooksTNg</td><td><a href="#m6">clickbooks</a></td><td rowspan="1">1730184215129</td><td rowspan="1">2183</td></tr><tr class="passedodd"><td rowspan="1">TestNgAssignment.ElectronicsTNg</td><td><a href="#m7">clickelectronic</a></td><td rowspan="1">1730184231874</td><td rowspan="1">2913</td></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Test3 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNgAssignment.ComputersTNg</td><td><a href="#m8">clickcomputer</a></td><td rowspan="1">1730184246645</td><td rowspan="1">1852</td></tr><tr class="failedodd"><td rowspan="1">TestNgAssignment.GiftTNg</td><td><a href="#m9">clickgift</a></td><td rowspan="1">1730184240107</td><td rowspan="1">1894</td></tr><tr><th colspan="4">Test3 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestNgAssignment.BooksTNg</td><td><a href="#m10">clickbooks</a></td><td rowspan="1">1730184252734</td><td rowspan="1">1954</td></tr><tr class="passedodd"><td rowspan="1">TestNgAssignment.ElectronicsTNg</td><td><a href="#m11">clickelectronic</a></td><td rowspan="1">1730184259564</td><td rowspan="1">1982</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNG.DependsOnMethod</td><td><a href="#m0">register</a></td><td rowspan="1">1733226779145</td><td rowspan="1">2071</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">TestNG.DependsOnMethod</td><td><a href="#m1">addTOCart</a></td><td rowspan="1">1733226781233</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m2">login</a></td><td rowspan="1">1733226781226</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Test1</h2><h3 id="m0">TestNgAssignment.ComputersTNg#clickcomputer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Computers page not loaded expected [Demo Web Shop. Compute] but found [Demo Web Shop. Computers]
-	at TestNgAssignment.ComputersTNg.clickcomputer(ComputersTNg.java:19)
+<h2>Default test</h2><h3 id="m0">TestNG.DependsOnMethod#register</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.fail(Assert.java:106)
+	at TestNG.DependsOnMethod.register(DependsOnMethod.java:17)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestNgAssignment.GiftTNg#clickgift</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Gift Cards page not loaded expected [Demo Shop. Gift Cards] but found [Demo Web Shop. Gift Cards]
-	at TestNgAssignment.GiftTNg.clickgift(GiftTNg.java:18)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestNG.DependsOnMethod#addTOCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method DependsOnMethod.addTOCart()[pri:0, instance:TestNG.DependsOnMethod@28eaa59a] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">TestNgAssignment.BooksTNg#clickbooks</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Books page loaded</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestNgAssignment.ElectronicsTNg#clickelectronic</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Electronics page loaded</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test2</h2><h3 id="m4">TestNgAssignment.ComputersTNg#clickcomputer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Computers page not loaded expected [Demo Web Shop. Compute] but found [Demo Web Shop. Computers]
-	at TestNgAssignment.ComputersTNg.clickcomputer(ComputersTNg.java:19)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestNG.DependsOnMethod#login</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method DependsOnMethod.login()[pri:0, instance:TestNG.DependsOnMethod@28eaa59a] depends on not successfully finished methods
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">TestNgAssignment.GiftTNg#clickgift</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Gift Cards page not loaded expected [Demo Shop. Gift Cards] but found [Demo Web Shop. Gift Cards]
-	at TestNgAssignment.GiftTNg.clickgift(GiftTNg.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">TestNgAssignment.BooksTNg#clickbooks</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Books page loaded</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">TestNgAssignment.ElectronicsTNg#clickelectronic</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Electronics page loaded</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Test3</h2><h3 id="m8">TestNgAssignment.ComputersTNg#clickcomputer</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Computers page not loaded expected [Demo Web Shop. Compute] but found [Demo Web Shop. Computers]
-	at TestNgAssignment.ComputersTNg.clickcomputer(ComputersTNg.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m9">TestNgAssignment.GiftTNg#clickgift</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Gift Cards page not loaded expected [Demo Shop. Gift Cards] but found [Demo Web Shop. Gift Cards]
-	at TestNgAssignment.GiftTNg.clickgift(GiftTNg.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m10">TestNgAssignment.BooksTNg#clickbooks</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Books page loaded</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m11">TestNgAssignment.ElectronicsTNg#clickelectronic</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Electronics page loaded</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

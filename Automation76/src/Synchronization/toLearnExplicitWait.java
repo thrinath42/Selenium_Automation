@@ -15,6 +15,7 @@ public class toLearnExplicitWait {
 			WebDriver driver= new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(500));
+			
 			driver.get("https://www.shoppersstack.com/products_page/1403");
 			driver.findElement(By.id("Check Delivery")).sendKeys("560010");
 			WebElement checkButton = driver.findElement(By.id("Check"));
